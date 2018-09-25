@@ -1,0 +1,692 @@
+<!doctype html> 
+<html>
+<head>
+
+<style type="text/css">
+
+.cord {
+	width: 50px;
+	height: 300px;
+	background: black;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+	position: absolute;
+	top: -100px;
+	 left: 495px;
+}
+
+
+.body {
+	width: 400px;
+	height: 90px;
+	background: black;
+	 border-radius: 25px;
+	 padding: 20px; 
+	 position: absolute;
+	 top: 400px;
+	 left: 300px;
+}
+
+.head {
+	width: 122px;
+	height: 115px;
+	background: black;
+	border-radius: 25px;
+	 padding: 20px; 
+	 position: absolute;
+	 top: 280px;
+	 left: 440px;
+}
+
+.top {
+width: 90px;
+	height: 170px;
+	background: black;
+	position: absolute;
+	 top: 190px;
+	 left: 475px;
+}
+
+.rimwhite {
+	width: 100px;
+	height: 20px;
+	background: white;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+	position: absolute;
+	top: 182px;
+	 left: 470px;
+}
+
+.rim2 {
+	width: 100px;
+	height: 20px;
+	background: black;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+	position: absolute;
+	top: 180px;
+	 left: 470px;
+}
+
+
+
+.box {
+	width: 97px;
+	height: 93px;
+	background: black;
+	border-radius: 5px;
+	 padding: 5px; 
+	 border: 2px solid white;
+	position: absolute;
+	 top: 295px;
+	 left: 466px;
+}
+.insidebox {
+	width: 83px;
+	height: 80px;
+	background: black;
+	border-radius: 5px;
+	 padding: 5px; 
+	 border: 1px solid white;
+	position: absolute;
+	 top: 302px;
+	 left: 474px;
+
+}
+.boxline1 {
+	width: 1px;
+	height: 12px;
+	background: white;
+	position: absolute;
+	transform: rotate(130deg);
+	 top: 296px;
+	 left: 472px;
+}
+
+.boxline2 {
+	width: 1px;
+	height: 10px;
+	background: white;
+	position: absolute;
+	transform: rotate(230deg);
+	 top: 296px;
+	 left: 571px;
+}
+
+.boxline3 {
+	width: 1px;
+	height: 10px;
+	background: white;
+	position: absolute;
+	transform: rotate(230deg);
+	 top: 391px;
+	 left: 472px;
+}
+
+.boxline4 {
+	width: 1px;
+	height: 12px;
+	background: white;
+	position: absolute;
+	transform: rotate(130deg);
+	 top: 390px;
+	 left: 571px;
+}
+.smalltriangle  {
+	width: 0;
+	height: 0;
+	border-bottom: 30px solid white;
+	border-left: 30px solid transparent;
+	position: absolute;
+	 top: 310px;
+	 left: 530px;
+}
+
+.bigtriangle {
+
+	width: 0;
+	height: 0;
+	border-bottom: 60px solid white;
+	border-left: 60px solid transparent;
+	position: absolute;
+	 top: 320px;
+	 left: 500px;
+}
+
+.triangledivide {
+	width: 50px;
+	height: 25px;
+	-webkit-transform: skew(160deg);
+	   -moz-transform: skew(160deg);
+	     -o-transform: skew(160deg);
+	background: black;
+	position: absolute;
+	 top: 335px;
+	 left: 513px;
+}
+
+.triangledividept2 {
+	width: 20px;
+	height: 25px;
+	-webkit-transform: skew(20deg);
+	   -moz-transform: skew(20deg);
+	     -o-transform: skew(20deg);
+	background: black;
+	position: absolute;
+	 top: 335px;
+	 left: 540px;
+	}
+
+	.babytriangle1 {
+		width: 0;
+	height: 0;
+	border-bottom: 40px solid black;
+	border-left: 30px solid transparent;
+	position: absolute;
+	transform: rotate(09deg);
+	 top: 250px;
+	 left: 450px;
+	}
+
+	.babytriangle2 {
+		width: 0;
+	height: 0;
+	border-bottom: 40px solid black;
+	border-left: 30px solid transparent;
+	position: absolute;
+	transform: rotate(95deg);
+	 top: 250px;
+	 left: 560px;
+	}
+.smallrectangle {
+	width: 54px;
+	height: 40px;
+	background: white;
+	position: absolute;
+	 top: 255px;
+	 left: 493px;
+}
+
+.smallerrectangle {
+	width: 50px;
+	height: 43px;
+	background: black;
+	position: absolute;
+	 top: 253px;
+	 left: 495px;
+}
+
+.triangle1 {
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 50px solid white;
+	position: absolute;
+	transform: rotate(30deg);
+	 top: 219px;
+	 left: 487px;
+}
+
+.triangle2 {
+		width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 50px solid white;
+	position: absolute;
+	transform: rotate(330deg);
+	 top: 219px;
+	 left: 533px;
+}
+
+.smallcircle1 {
+	width: 4px;
+	height: 4px;
+	background: black;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	padding: 0.4px; 
+	 border: 0.4px solid white;
+	position: absolute;
+	 top: 213px;
+	 left: 503px;
+}
+
+.smallcircle2 {
+	width: 4px;
+	height: 4px;
+	background: black;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	padding: 0.4px; 
+	 border: 0.4px solid white;
+	position: absolute;
+	 top: 213px;
+	 left: 531px;
+}
+
+.biggercircle {
+	width: 8px;
+	height: 8px;
+	background: black;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	padding: 0.5px; 
+	 border: 0.5px solid white;
+	position: absolute;
+	 top: 326px;
+	 left: 510px;
+}
+
+.shouldercurve1 {
+	width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  box-shadow: 15px 15px 0 0 black;
+  position: absolute;
+	 top: 370px;
+	 left: 410px;
+}
+
+.shouldercurve2 {
+	width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  box-shadow: 15px 15px 0 0 black;
+  position: absolute;
+  transform: rotate(90deg);
+	 top: 370px;
+	 left: 602px;
+}
+
+.cordwhiteline {
+	width: 100px;
+	height: 1px;
+	background: white;
+	position: absolute;
+	top: 179px;
+	 left: 470px;
+}
+
+.blackbuttonpt1 {
+	width: 50px;
+	height: 15px;
+	background: black;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+	position: absolute;
+	transform: rotate(90deg);
+	 top: 340px;
+	 left: 413px;
+}
+
+.blackbuttonpt2 {
+	width: 25px;
+	height: 15px;
+	background: black;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+	position: absolute;
+	transform: rotate(90deg);
+	 top: 340px;
+	 left: 415px;
+}
+
+.buttonrectangle1 {
+	width: 17px;
+	height: 11px;
+	background: black;
+	position: absolute;
+	 top: 310px;
+	 left: 426px;
+}
+
+.buttonrectangle2{
+	width: 17px;
+	height: 11px;
+	background: black;
+	position: absolute;
+	 top: 375px;
+	 left: 426px;
+}
+
+.buttontriangle1 {
+	width: 0;
+	height: 0;
+	border-bottom: 15px solid black;
+	border-left: 17px solid transparent;
+	position: absolute;
+	top: 296px;
+	 left: 426px;
+}
+
+.buttontriangle2 {
+	width: 0;
+	height: 0;
+	border-top: 15px solid black;
+	border-left: 17px solid transparent;
+	position: absolute;
+	 top: 385px;
+	 left: 426px;
+
+}
+
+.buttonwhitedivider {
+	width: 1px;
+	height: 100px;
+	background: white;
+	position: absolute;
+	top: 290px;
+	 left: 440px;
+}
+
+.butt1 {
+	width: 90px;
+	height: 45px;
+	background: black;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+	padding: 5px; 
+	 border: 2px solid black;
+	position: absolute;
+	transform: rotate(90deg);
+	 top: 513px;
+	 left: 320px;
+}
+
+.butt2 {
+	width: 90px;
+	height: 45px;
+	background: black;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+	padding: 5px; 
+	 border: 2px solid black;
+	position: absolute;
+	transform: rotate(90deg);
+	 top: 513px;
+	 left: 471px;
+}
+
+.butt3 {
+	width: 90px;
+	height: 45px;
+	background: black;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+	padding: 5px; 
+	 border: 2px solid black;
+	position: absolute;
+	transform: rotate(90deg);
+	 top: 513px;
+	 left: 621px;
+}
+
+.buttcircle1 {
+	width: 8px;
+	height: 8px;
+	background: white;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	 transform: rotate(90deg);
+	 position: absolute;
+	 top: 517px;
+	 left: 361px;
+}
+
+.buttcircle2 {
+	width: 8px;
+	height: 8px;
+	background: white;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	 transform: rotate(90deg);
+	 position: absolute;
+	 top: 517px;
+	 left: 511px;
+}
+
+.buttcirlce3 {
+	width: 8px;
+	height: 8px;
+	background: white;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	 transform: rotate(90deg);
+	 position: absolute;
+	 top: 517px;
+	 left: 662px;
+}
+
+.buttline1 {
+	width: 90px;
+	height: 45px;
+	background: white;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+	padding: 5px; 
+	 border: 3px solid white;
+	position: absolute;
+	transform: rotate(90deg);
+	 top: 505px;
+	 left: 319px;
+}
+
+.buttline2 {
+	width: 90px;
+	height: 45px;
+	background: white;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+	padding: 5px; 
+	 border: 3px solid white;
+	position: absolute;
+	transform: rotate(90deg);
+	 top: 505px;
+	 left: 470px;
+}
+
+.buttline3 {
+	width: 90px;
+	height: 45px;
+	background: white;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+	padding: 5px; 
+	 border: 3px solid white;
+	position: absolute;
+	transform: rotate(90deg);
+	 top: 505px;
+	 left: 620px;
+}
+
+.bigwhitebox {
+width: 400px;
+	height: 90px;
+	background: white;
+	 border-radius: 25px;
+	 padding: 20px; 
+	 position: absolute;
+	 top: 530px;
+	 left: 300px;
+
+}
+
+.cordshine {
+	width: 5px;
+	height: 150px;
+	background: white;
+	position: absolute;
+	top: 0px;
+	 left: 500px;
+}
+
+.bodyshine1 {
+	width: 105px;
+	height: 6px;
+	background: white;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+	position: absolute;
+	 top: 410px;
+	 left: 320px;
+}
+
+.bodyshine2 {
+	width: 100px;
+	height: 4px;
+	background: white;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+	position: absolute;
+	transform: rotate(90deg);
+	 top: 463px;
+	 left: 260px;
+}
+
+.bodyshine3 {
+		width: 105px;
+	height: 6px;
+	background: white;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+	position: absolute;
+	 top: 410px;
+	 left: 620px;
+}
+
+.bodyshine4 {
+	width: 100px;
+	height: 4px;
+	background: white;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+	position: absolute;
+	transform: rotate(90deg);
+	 top: 463px;
+	 left: 681px;
+}
+
+.headshine1 {
+	width: 40px;
+	height: 4px;
+	background: white;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+	position: absolute;
+	transform: rotate(-45deg);
+	 top: 280px;
+	 left: 443px;
+}
+
+.headshine2 {
+	width: 40px;
+	height: 4px;
+	background: white;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+	position: absolute;
+	transform: rotate(220deg);
+	 top: 280px;
+	 left: 558px;
+}
+
+
+
+
+
+</style>
+</head>
+
+
+
+
+
+<body>
+<div class="cord"></div>
+<div class="body"></div>
+<div class="head"></div>
+<div class="hole"></div>
+<div class="top"></div>
+<div class="rimwhite"></div>
+<div class="rim2"></div>
+<div class="cord"></div>
+<div class="box"></div>
+<div class="boxline1"></div>
+<div class="insidebox"></div>
+<div class="boxline2"></div>
+<div class="boxline3"></div>
+<div class="boxline4"></div>
+<div class="smalltriangle"></div>
+<div class="bigtriangle"></div>
+<div class="triangledivide"></div>
+<div class="triangledividept2"></div>
+<div class="babytriangle1"></div>
+<div class="babytriangle2"></div>
+<div class="smallrectangle"></div>
+<div class="smallerrectangle"></div>
+<div class="triangle1"></div>
+<div class="triangle2"></div>
+<div class="smallcircle1"></div>
+<div class="smallcircle2"></div>
+<div class="biggercircle"></div>
+<div class="shouldercurve1"></div>
+<div class="shouldercurve2"></div>
+<div class="cordwhiteline"></div>
+<div class="blackbuttonpt1"></div>
+<div class="blackbuttonpt2"></div>
+<div class="buttonrectangle1"></div>
+<div class="buttonrectangle2"></div>
+<div class="buttontriangle1"></div>
+<div class="buttontriangle2"></div>
+<div class="buttonwhitedivider"></div>
+<div class="buttline1"></div>
+<div class="buttline2"></div>
+<div class="buttline3"></div>
+<div class="butt1"></div>
+<div class="butt2"></div>
+<div class="butt3"></div>
+<div class="buttcircle1"></div>
+<div class="buttcircle2"></div>
+<div class="buttcirlce3"></div>
+<div class="bigwhitebox"></div>
+<div class="cordshine"></div>
+<div class="bodyshine1"></div>
+<div class="bodyshine2"></div>
+<div class="bodyshine3"></div>
+<div class="bodyshine4"></div>
+<div class="headshine1"></div>
+<div class="headshine2"></div>
+<div></div>
+
+
+
+
+
+
+</body>

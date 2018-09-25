@@ -1,0 +1,494 @@
+ <!doctype html> 
+<html>
+<head>
+
+<style type="text/css">
+.rod {
+	width: 110px;
+	height: 800px;
+	background: black;
+	position:absolute;
+			top: 250px;
+			left:500px;
+			transform: rotate(55deg);
+			
+}	
+
+.triangle {
+	width: 190px;
+	height: 35px;
+	background: white;
+	position:absolute;
+	top: -183px;
+	left: 60px;
+	transform: rotate(157deg);
+
+
+}
+
+.headpt13 {
+	width: 140px;
+	height: 60px;
+	background: white;
+	position: absolute;
+	transform: rotate(-25deg);
+	top: -211px;
+	left:80px;
+
+
+}
+
+.rodpt2 {
+	width: 0;
+	height: 0;
+	border-bottom: 100px solid black;
+	border-left: 100px solid transparent;
+	position:absolute;
+			top: -45px;
+			left:-235px;
+			transform: rotate(10deg);
+		
+}
+
+.end {
+	width: 140px;
+	height: 140px;
+	background: black;
+	-moz-border-radius: 80px;
+	-webkit-border-radius: 80px;
+	border-radius: 180px;
+	position:absolute;
+			top: 808px;
+			left:160px;
+	}
+
+	.headpt1 {
+		width: 0;
+	height: 0;
+	border-top: 200px solid black;
+	border-left: 200px solid transparent;
+	position:absolute;
+			top: 249px;
+			left:700px;
+			transform: rotate(60deg);
+
+	}
+
+	.endwhite {
+		width: 100px;
+	height: 100px;
+	background: white;
+	-moz-border-radius: 80px;
+	-webkit-border-radius: 80px;
+	border-radius: 180px;
+	position:absolute;
+			top: 829px;
+			left:180px;
+	}
+	.endcurvewhite {
+		width: 100px;
+	height: 100px;
+
+		border: 3px solid white;
+		margin:10px;
+	-moz-border-radius: 80px;
+	-webkit-border-radius: 80px;
+	border-radius: 80px;
+	position:absolute;
+			top: 813px;
+			left:164px;
+	}
+
+
+.bottomlefttriangle {
+	width: 0;
+	height: 0;
+	border-bottom: 100px solid black;
+	border-left: 100px solid transparent;
+	position:absolute;
+			top: 739px;
+			left:200px;
+			transform: rotate(15deg);
+			
+			
+}
+.bottomrighttriangle {
+	width: 0;
+	height: 0;
+	border-bottom: 100px solid black;
+	border-left: 100px solid transparent;
+	position:absolute;
+			top: 840px;
+			left:264px;
+			transform: rotate(187deg);
+}
+
+.headpt2 {
+	width: 0;
+	height: 0;
+	border-top: 130px solid black;
+	border-right: 130px solid transparent;
+	position:absolute;
+			top: 390px;
+			left:890px;
+			transform: rotate(30deg);
+			
+}
+.square {
+	width: 75px;
+	height: 75px;
+	background: black;
+	position:absolute;
+			top: 390px;
+			left:840px;
+}
+.headpt3 {
+	
+	background: black;
+	position:absolute;
+			top: 290px;
+			left:795px;
+			transform: rotate(45deg);
+			
+}
+.headpt4 {
+	width: 230px;
+	height: 80px;
+	background: black;
+	position:absolute;
+			top: 290px;
+			left:815px;
+			transform: rotate(45deg);
+			
+}
+.headpt5 {
+	width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  box-shadow: 15px 15px 0 0 black;
+  position:absolute;
+  transform:rotateY(180deg);
+  transform: rotate(195deg);
+			top: 215px;
+			left:825px;
+}
+
+.headpt6 {
+	width: 75px;
+	height: 75px;
+	background: black;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	position:absolute;
+	top: 215px;
+			left:825px;
+}
+
+.headpt7 {
+	width: 200px;
+	height: 100px;
+	background: black;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+	position:absolute;
+	top: 160px;
+			left:810px;
+			transform: rotate(155deg);
+			
+}
+
+.whitetriangle {
+	width: 0;
+	height: 0;
+	border-bottom: 150px solid white;
+	border-right: 100px solid transparent;
+	position:absolute;
+	top: 152px;
+	left:940px;
+	transform: rotate(45deg);
+			
+}
+
+.semicirclewhite {
+	width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 15px 15px 0 0 black;
+  position:absolute;
+	top: 220px;
+	left:912px;
+	transform: rotate(120deg);
+}
+
+.coverupline {
+width: 263px;
+	height: 30px;
+	background: black;
+	position:absolute;
+			top: 270px;
+			left:820px;
+			transform: rotate(45deg);
+}
+
+.coverupcircle {
+	width: 100px;
+	height: 100px;
+	background: black;
+	-moz-border-radius: 80px;
+	-webkit-border-radius: 80px;
+	border-radius: 180px;
+	position:absolute;
+	top: 189px;
+			left:820px;
+}
+
+.whitecircle {
+	width: 50px;
+	height: 50px;
+	background: white;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	position:absolute;
+	top: 160px;
+			left:975px;
+}
+
+.headpt8 {
+	width: 60px;
+	height: 30px;
+	-webkit-transform: skew(30deg);
+	   -moz-transform: skew(20deg);
+	     -o-transform: skew(20deg);
+	background: black;
+	position:absolute;
+	top: 401px;
+			left:975px;
+
+}
+
+.headpt9 {
+	width: 0;
+	height: 0;
+	border-bottom: 60px solid black;
+	border-right: 30px solid transparent;
+	position:absolute;
+	transform: rotate(80deg);
+	top: -20px;
+	left: 72px; 
+
+
+
+}
+
+.headpt10 {
+	width: 50px;
+	height: 25px;
+	background: black;
+	position:absolute;
+	transform: rotate(66deg);
+	top: -41px;
+	left: 72px; 
+}
+
+.headpt11 {
+	width: 50px;
+	height: 50px;
+	background: black;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+	position: absolute;
+	top: -50px;
+			left:55px;
+	
+}
+
+.headpt12 {
+	width: 50px;
+	height: 50px;
+	background: black;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+	position: absolute;
+	top: -30px;
+			left:30px;
+}
+
+.rodleftline {
+
+	width: 2px;
+	height: 900px;
+	background: white;
+	position:absolute;
+			top: 280px;
+			left:500px;
+			transform: rotate(55deg);
+			
+			}
+
+
+.rodrightline {
+
+	width: 2px;
+	height: 830px;
+	background: white;
+	position:absolute;
+			top: -194px;
+			left:-560px;
+			transform: rotate(63.5deg);
+		
+			}
+			.rodcircle1 {
+				width: 200px;
+	height: 100px;
+	background: red;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+			}
+.oval {
+	width: 200px;
+	height: 100px;
+	background: black;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+	position:absolute;
+	top: -190px;
+	left: 40px;
+	transform: rotate(135deg);
+
+}
+
+.headpt14 {
+	width: 50px;
+	height: 25px;
+	background: black;
+	position: absolute;
+	top: -83px;
+	left: 78px;
+	transform: rotate(-31deg);
+
+}
+
+.headpt15 {
+	width: 95px;
+	height: 50px;
+	background: white;
+	position: absolute;
+	top: -45px;
+	left: -70px;
+	transform:rotate(338deg);
+	
+}
+
+.headpt16 {
+
+}
+
+.headpt17
+
+
+.shine1 {
+	  margin:0 auto;
+            position:absolute;
+            width:50px;
+            height:100px;
+            border-top:2px solid red;
+            border-left:5px solid red;
+            border-top-left-radius:200px;
+            float:left;
+            margin-left:100px;
+            transform: rotate(20deg);
+            box-shadow:inset 0 px 0 transparent;
+            top: 40px;
+            left: 450px;
+}
+
+
+
+
+			
+
+
+
+
+
+
+		
+
+
+</style>
+</head>
+
+
+
+
+
+<body>
+
+
+<div class="rod"></div>
+<div class="rodleftline"></div>
+<div class="bottomlefttriangle"></div>
+<div class="bottomrighttriangle"></div>
+<div class="head"></div>
+<div class="end"></div>
+<div class="endwhite"></div>
+<div class="endcurvewhite"></div>
+<div class="headpt1"></div>
+<div class="headpt2"></div>
+<div class="square"></div>
+<div class="headpt3"></div>
+<div class="headpt4"></div>
+<div class="headpt5"></div>
+<div class="headpt6"></div>
+<div class="headpt7"></div>
+<div class="whitetriangle"></div>
+<div class="semicirclewhite"></div>
+<div class="coverupline"></div>
+<div class="coverupcircle"></div>
+<div class="whitecircle"></div>
+<di class="headpt8"></div>
+<div class="headpt9"></div>
+<div class="headpt10"></div>
+<div class="headpt11"></div>
+<div class="headpt12"></div>
+<div class="rodpt2"></div>
+<div class="rodrightline"></div>
+<div class="oval"></div>
+<div class="triangle"></div>
+<div class="headpt13"></div>
+<div class="headpt14"></div>
+<div class="headpt15"></div>
+<div class="headpt16"></div>
+<div class="headpt17"></div>
+<div class="shine1"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+</body>
