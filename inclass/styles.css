@@ -1,0 +1,38 @@
+body {
+	font-family:garamond;
+	font-size: 15px;
+max-width: 500px;
+text-justify:100px;
+
+}
+
+h1 { font-size: 3rem;
+	font-style: italic;
+font-variant:small-caps;
+text-indent:50px;
+}
+
+h2 {
+	color: red;
+	font-weight: 30px;
+	@font-face
+	text-indent:100px;
+}
+
+p {
+
+}
+h3 {
+	line-height: 15px;
+	text-decoration: underline;
+	text-transform:lowercase;
+}
+
+h4 {
+
+}
+
+ol {
+	margin-left: 1rem;
+	list-style-type: lower-alpha;
+}
