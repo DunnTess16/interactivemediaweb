@@ -1,0 +1,160 @@
+body {
+	
+	font-family:rift;
+	font-size: 8px;
+max-width: 800px;
+background-color: #ffff17;
+}
+
+#sidebar {
+	background:url('background-sidebar.png');
+	width:20vw;
+	height:100vw;
+	position:fixed;
+	left:80vw;
+	top:0;
+}
+
+h1 {font-family:Industry Inc ;
+	color: #231f20;
+	font-size: 10rem;
+	font-style: italic;
+	font-weight: 200px;
+font-variant:small-caps;
+text-indent:200px;
+line-height: 15px;
+}
+
+h2 {
+	font-family:Industry Inc ;
+color: #231f20;
+font-size: 10rem;
+font-variant:small-caps;
+font-style: italic;
+text-indent:500px;
+top: -100px;
+left: 300px;
+line-height: 0px;
+}
+h3 {
+	font-family:rift;
+	font-size: 10rem;
+	font-kerning:
+	color:#231f20; 
+
+text-indent:10px;
+
+}
+
+
+h4 {font-family:Industry Inc ;
+	font-size: 5rem;
+	color:#231f20;
+
+	font-kerning: 
+	font-style: italic;
+font-variant:small-caps;
+text-indent:10px;
+left: 300px;
+top: 400px;
+}
+
+h5 {
+	font-family:balboaplus;
+	font-size: 5rem;
+	color:#433261;
+	font-style: italic;
+font-family:Industry Inc ;
+color: #231f20;
+font-size: 10rem;
+font-variant:small-caps;
+font-style: italic;
+text-indent:100px;
+top: -200px;
+left: 300px;
+line-height: 0px;
+
+}
+
+h6 {
+	font-family:balboaplus;
+	font-size: 15rem;
+	font-kerning:
+	color:#23cbba; 
+	position: absolute;
+	top: 100px;
+	left: 100px;
+
+}
+
+h6 {
+	font-family:balboaplus;
+	font-size: 15rem;
+	font-kerning:
+	color:#23cbba; 
+	position: absolute;
+	top: 10px;
+	left: 100px;
+
+}
+
+p {
+	font-family:rift;
+	color:#231f20;
+	font-size: 5rem;
+
+}
+
+line {
+	font-family:Industry Inc ;
+	color: #231f20;
+	font-size: 10rem;
+	font-variant:small-caps;
+	font-style: italic;
+	text-indent:100px;
+	position: absolute;
+	top: 8500px;
+	left: 300px;
+	line-height: 0px;
+}
+
+.line2 {
+	font-family:Industry Inc ;
+	color: #231f20;
+	font-size: 10rem;
+	font-variant:small-caps;
+	font-style: italic;
+	text-indent:100px;
+	position: absolute;
+	top: 9000px;
+	left: 300px;
+	line-height: 0px;
+}
+
+title 
+{
+	font-family:Industry Inc ;
+	color: #231f20;
+	font-size: 10rem;
+	font-variant:small-caps;
+	font-style: italic;
+	text-indent:100px;
+	position: absolute;
+	top: 100px;
+	left: 300px;
+	line-height: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img src="roughwebtype.psd" alt="C*O*D*I*N*G">
