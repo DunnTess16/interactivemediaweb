@@ -5,7 +5,10 @@ body {
 max-width: 800px;
 background-color: #ffff17;
 }
-
+@font-face{
+	src:url("https://use.typekit.net/nru6dua.css");
+	src:url("https://use.typekit.net/ewd1nou.css");
+}
 #sidebar {
 	background:url('background-sidebar.png');
 	width:20vw;
